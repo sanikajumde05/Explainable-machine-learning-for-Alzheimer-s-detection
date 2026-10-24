@@ -1,0 +1,10 @@
+,MI rank,RFE rank,SHAP rank,Mean rank,Selected
+CDR,1.0,1.0,1.0,1.0,True
+MMSE,2.0,2.0,2.0,2.0,True
+eTIV,3.0,4.0,4.0,3.6666666666666665,True
+nWBV,4.0,7.0,3.0,4.666666666666667,True
+Sex,7.0,6.0,5.0,6.0,True
+EDUC,6.0,5.0,7.0,6.0,False
+ASF,5.0,8.0,6.0,6.333333333333333,False
+SES,8.5,3.0,8.0,6.5,False
+Age,8.5,9.0,9.0,8.833333333333334,False

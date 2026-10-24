@@ -1,0 +1,25 @@
+Scenario,Features,Model,Accuracy,Precision,Sensitivity,Specificity,F1,AUC,AUC_fold_mean,AUC_fold_std
+A: Clinical+MRI,All,LogReg (baseline),0.938,0.988,0.885,0.989,0.934,0.957,0.968,0.022
+A: Clinical+MRI,All,DecisionTree (baseline),0.938,0.965,0.907,0.968,0.935,0.954,0.96,0.022
+A: Clinical+MRI,All,RandomForest,0.946,0.988,0.902,0.989,0.943,0.961,0.963,0.027
+A: Clinical+MRI,All,XGBoost,0.944,0.982,0.902,0.984,0.94,0.95,0.951,0.029
+A: Clinical+MRI,All,SVM,0.93,0.97,0.885,0.974,0.926,0.949,0.957,0.02
+A: Clinical+MRI,All,Stacking (proposed),0.944,0.982,0.902,0.984,0.94,0.952,0.961,0.025
+A: Clinical+MRI,Hybrid-selected,LogReg (baseline),0.946,0.988,0.902,0.989,0.943,0.945,0.96,0.026
+A: Clinical+MRI,Hybrid-selected,DecisionTree (baseline),0.946,0.988,0.902,0.989,0.943,0.955,0.96,0.019
+A: Clinical+MRI,Hybrid-selected,RandomForest,0.946,0.982,0.907,0.984,0.943,0.957,0.962,0.029
+A: Clinical+MRI,Hybrid-selected,XGBoost,0.936,0.96,0.907,0.963,0.933,0.954,0.954,0.038
+A: Clinical+MRI,Hybrid-selected,SVM,0.944,0.982,0.902,0.984,0.94,0.932,0.947,0.037
+A: Clinical+MRI,Hybrid-selected,Stacking (proposed),0.944,0.976,0.907,0.979,0.941,0.941,0.962,0.03
+B: MRI+Demographics (early),All,LogReg (baseline),0.681,0.67,0.689,0.674,0.679,0.756,0.75,0.05
+B: MRI+Demographics (early),All,DecisionTree (baseline),0.646,0.636,0.65,0.642,0.643,0.654,0.661,0.052
+B: MRI+Demographics (early),All,RandomForest,0.665,0.648,0.694,0.637,0.67,0.687,0.687,0.071
+B: MRI+Demographics (early),All,XGBoost,0.633,0.62,0.65,0.616,0.635,0.684,0.694,0.095
+B: MRI+Demographics (early),All,SVM,0.654,0.642,0.667,0.642,0.654,0.663,0.664,0.094
+B: MRI+Demographics (early),All,Stacking (proposed),0.649,0.637,0.661,0.637,0.649,0.666,0.676,0.075
+B: MRI+Demographics (early),Hybrid-selected,LogReg (baseline),0.676,0.661,0.694,0.658,0.677,0.732,0.726,0.064
+B: MRI+Demographics (early),Hybrid-selected,DecisionTree (baseline),0.611,0.598,0.634,0.589,0.615,0.617,0.598,0.067
+B: MRI+Demographics (early),Hybrid-selected,RandomForest,0.633,0.621,0.645,0.621,0.633,0.696,0.694,0.083
+B: MRI+Demographics (early),Hybrid-selected,XGBoost,0.649,0.638,0.656,0.642,0.647,0.676,0.692,0.089
+B: MRI+Demographics (early),Hybrid-selected,SVM,0.63,0.618,0.645,0.616,0.631,0.683,0.696,0.067
+B: MRI+Demographics (early),Hybrid-selected,Stacking (proposed),0.638,0.632,0.628,0.647,0.63,0.661,0.67,0.076
